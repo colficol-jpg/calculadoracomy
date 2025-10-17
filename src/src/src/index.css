@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+:root {
+  --comi-green: #00923F;
+  --comi-orange: #F58220;
+}
+
+.bg-comiGreen { background-color: var(--comi-green); }
+.text-comiOrange { color: var(--comi-orange); }
